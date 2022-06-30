@@ -15,9 +15,6 @@ app.get("/signin",function(req,res){
   res.render("signin");
 })
 
-app.get("/reigister", (req,res)=>{
-  
-})
 
 
 
