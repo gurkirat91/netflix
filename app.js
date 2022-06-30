@@ -12,9 +12,9 @@ let email="";   // initial the email.......
 
 
 
-app.get("/",function(req,res){
-  res.render("home");
-})
+// app.get("/",function(req,res){
+//   res.render("home");
+// })
 app.get("/signin",function(req,res){
   res.render("signin");
 })
