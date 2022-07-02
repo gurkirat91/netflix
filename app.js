@@ -62,6 +62,7 @@ app.get("/signin",function(req,res){
 app.post("/signin",function(req,res){
   console.log(req.body);
 
+
   const user=new User({
     username:req.body.username,
     password:req.body.password
@@ -76,6 +77,9 @@ app.post("/signin",function(req,res){
       })
     }
   })
+=======
+app.get("/main", (req,res)=>{
+
 })
 
 
@@ -110,7 +114,6 @@ app.post("/",function(req,res){
 
 
 
-
-app.listen(3000,function(){
+app.listen(5000,function(){
   console.log("starting the server");
 })
