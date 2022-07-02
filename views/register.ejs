@@ -1,15 +1,21 @@
 <%- include('partials/header') %>
-    <header class="showcase">
+  <form action="/register" method="post">
+    <input type="text" name="username" value=<%=email%> ><br>
+    <input type="text" name="password" value="" placeholder="password"><br>
+    <button type="submit" name="button">Submit</button>
+    <!-- <button type="submit" name="" value=""> -->
+  </form>
+    <!-- <header class="showcase">
             <div class="logo">
                 <img src="https://i.ibb.co/r5krrdz/logo.png">
             </div>
             <div class="showcase-content">
                 <div class="formm">
-                    <form action="/signin" method="post">
+                    <form>
                         <h1>Sign In</h1>
                         <div class="info">
-                            <input class="email" name="username" type="email" placeholder="Email or phone number"> <br>
-                            <input class="email" name="password" type="password" placeholder="Password">
+                            <input class="email" type="email" placeholder="Email or phone number"> <br>
+                            <input class="email" type="password" placeholder="Password">
                         </div>
                         <div class="btn">
                             <button class="btn-primary" type="submit">Sign In</button>
@@ -37,5 +43,5 @@
                 </div>
 
 
-            </div>
+            </div> -->
 <%- include('partials/footer') %>
