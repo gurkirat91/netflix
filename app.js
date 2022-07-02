@@ -81,7 +81,7 @@ app.post("/signin",function(req,res){
 
 
 app.get("/register",(req,res)=>{
-  res.render("register",{email:email});   //define the value of email input.....
+  res.render("reg",{email:email});   //define the value of email input.....
 })
 app.post("/register",function(req,res){
   console.log(req.body);

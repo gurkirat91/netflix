@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.xbt{
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 7px 17px;
+  background: #e50914;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+.register{
+  /* align-content: center; */
+  position: absolute;
+  left: 35%;
+  top: 150px;
+}
+hr{
+  color: grey;
+  height: 20px;
+  opacity: 0.3;
+  /* width: 20px; */
+}
+.form{
+  position: absolute;
+  left: 35%;
+  top:350px;
+  width: 350px;
+}
+h1{
+  color: black;
+  align-content: flex-start;
+}
+h6{
+  color: grey;
+  align-content: flex-start;
+  /* font-size:5px; */
+  font-family :"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    /* background: black; */
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.container::before{
+    content: "";
+    /* background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover; */
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.24;
+    z-index: -1;
+}
+.container .navbar{
+    height: 60px;
+    display: flex;
+}
+.container .navbar .left{
+    height: 100%;
+    display: flex;
+    float: left;
+}
+.container .navbar .left img{
+  width: 170px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+.container .navbar .right{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+.container .navbar .right .language{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.container .navbar .right .language option{
+    background-color: grey;
+}
+.container .navbar .right button{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+.container .navbar .right button a{
+    text-decoration: none;
+    color: white;
+}
+.container .title{
+    padding: 70px 45px;
+}
+.container .title .content{
+    width: 950px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+.container .title .content h1{
+    width: 650px;
+    color: black;
+    margin: auto;
+    font-size: 3.1rem;
+    text-align: center;
+}
+.container .title .content h2{
+    width: 650px;
+    color: black;
+    margin: auto;
+    font-size: 1.6rem;
+    /* text-align: center; */
+}
+.container.title.content.xc h2{
+  width: 650px;
+  color: black;
+  margin: auto;
+  font-size: 1.6rem;
+  /* text-align: center; */
+}
+.container .title .content form h3{
+    font-size: 1rem;
+    margin: 18px 0;
+    text-align: center;
+}
+.container .title .content form .email{
+    width: 1000px;
+    margin: auto;
+}
+.container .title .content form .email input{
+    height: 60px;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+}
+.container .title .content form .email button{
+    margin: auto;
+    height: 60px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: none;
+    margin-left: -5px;
+}
+.container .title .content form .email button:hover{
+    background-color: #f40612;
+}
+.container .title .content form .email button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+footer {
+	position: absolute;
+	margin-top: 600px;
+	z-index: 2;
+	background: 244,243,243;
+	width: 100%;
+	height: 200px;
+}
+
+.ftr-content {
+	margin-left: 10%;
+	padding-top: 20px;
+	font-size: 1em;
+}
+
+.ftr-content a {
+	color: #999;
+}
+
+.ftr-content a:hover {
+	text-decoration: underline;
+}
+
+.contact {
+	margin-bottom: 30px;
+}
+
+.contact a:hover {
+	text-decoration: underline;
+}
+
+.ftr {
+	margin-bottom: 30px;
+	width: 70%;
+	font-size: 0.8em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.select select {
+	width: 100px;
+	height: 40px;
+	border: none;
+	font-size: inherit;
+	padding-left: 10px;
+	background: white;
+}
