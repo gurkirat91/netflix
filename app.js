@@ -77,7 +77,7 @@ app.post("/signin",function(req,res){
       })
     }
   })
-=======
+})
 app.get("/main", (req,res)=>{
 
 })
@@ -114,6 +114,6 @@ app.post("/",function(req,res){
 
 
 
-app.listen(5000,function(){
+app.listen(3000,function(){
   console.log("starting the server");
 })
