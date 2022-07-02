@@ -15,6 +15,8 @@ app.get("/signin",function(req,res){
   res.render("signin");
 })
 
+app.get("/main", (req,res)=>{
+})
 
 
 
@@ -25,8 +27,7 @@ app.get("/signin",function(req,res){
 
 
 
-
-app.listen(3000,function(){
+app.listen(5000,function(){
   console.log("starting the server");
 })
  
